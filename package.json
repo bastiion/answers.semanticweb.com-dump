@@ -1,0 +1,13 @@
+{
+  "name": "answers.semanticweb.com-dump",
+  "version": "1.0.0",
+  "description": "Parses answers.semanticweb.com questions and transforms them into JSON",
+  "main": "index.js",
+  "author": "Sebastian Tilsch",
+  "license": "MIT",
+  "dependencies": {
+    "cheerio": "^0.22.0",
+    "lodash": "^4.17.2",
+    "node-progress": "^0.1.0"
+  }
+}

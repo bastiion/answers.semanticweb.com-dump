@@ -113,7 +113,7 @@ fs.readdir(dir, (err, files) => {
             resolve();
           }
         );        
-      });
+      })
     );
   });
   Promise.all(promises).then(() => {
